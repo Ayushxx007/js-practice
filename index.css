@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+   
+   
+    height:350px;
+    width:160px;
+    margin: 5px;
+    padding: 3px;
+    border: 1px solid #000;
+    border-radius: 5px;
+
+}
+.image{
+    border-radius:5px;
+    object-fit: contain;
+   
+    
+   
+    border-radius: 5px;
+    height:100px;
+    width:130px;
+}
+.text{
+  margin: 2px;
+padding: 2px;
+    font-size: 15px;
+    text-align: left;
+    
+}
+
+.outer{
+    display: flex;
+    flex-wrap: wrap;
+   
+  
+   
+   
+   
+   
+
+}
